@@ -3,6 +3,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    padding: 0;
     background: wihte;
 }
 
@@ -40,6 +41,11 @@ a {
 
 }
 
+a:hover {
+    color: aquamarine;
+    box-shadow: 1px 1px 20px #ddd;
+}
+
 
 
 
@@ -68,26 +74,33 @@ a {
     width: 100%;
     height: 100%;
     background: white;
-    padding: 15% 10px 10px 60px;
+    padding: 15% 0 10px 60px;
+    margin-right: -10px;
     display: flex;
 }
 
 .goal {
-    width: 100%;
+    width: 90%;
     height: 60%;
     background: white;
-    padding: 15% 10px -10px 60px;
+    margin-left: 60px;
+
     display: flex;
 }
 
 .footer {
-    padding: 20px;
+    padding: 10px;
     text-align: right;
     height: 10%;
+    width: 90%;
+}
+
+.icon1 {
+    padding-right: 60px;
 }
 
 .icon {
-    margin: 0 60px 0 0;
+    margin: 0 0 0 0;
     color: gray;
 }
 
@@ -101,6 +114,7 @@ figcaption {
 
 p {
     line-height: 2;
+    position: relative;
 }
 
 b {
@@ -110,4 +124,8 @@ b {
 #devel {
     color: red;
     font-style: italic;
+}
+
+.goalpic {
+    padding-left: 10px;
 }
