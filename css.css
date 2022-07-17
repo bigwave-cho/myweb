@@ -1,0 +1,131 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: wihte;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: white;
+
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: #1d1d1f;
+    border-radius: 15px;
+
+
+}
+
+.nav-menu {
+    margin: 2.5% 0;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    margin: 0 40px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: aquamarine;
+    box-shadow: 1px 1px 20px #ddd;
+}
+
+
+
+
+
+.home {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 15% 10px 10px 60px;
+    display: flex;
+}
+
+.Mypic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 15% 0 10px 60px;
+    margin-right: -10px;
+    display: flex;
+}
+
+.goal {
+    width: 90%;
+    height: 60%;
+    background: white;
+    margin-left: 60px;
+
+    display: flex;
+}
+
+.footer {
+    padding: 10px;
+    text-align: right;
+    height: 10%;
+    width: 90%;
+}
+
+.icon1 {
+    padding-right: 60px;
+}
+
+.icon {
+    margin: 0 0 0 0;
+    color: gray;
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+#mail {
+    font-weight: 540;
+}
+
+p {
+    line-height: 2;
+    position: relative;
+}
+
+b {
+    font-size: larger;
+}
+
+#devel {
+    color: red;
+    font-style: italic;
+}
+
+.goalpic {
+    padding-left: 10px;
+}
