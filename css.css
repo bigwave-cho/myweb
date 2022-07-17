@@ -1,0 +1,113 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: wihte;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: white;
+
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: #1d1d1f;
+    border-radius: 15px;
+
+
+}
+
+.nav-menu {
+    margin: 2.5% 0;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    margin: 0 40px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+.home {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 15% 10px 10px 60px;
+    display: flex;
+}
+
+.Mypic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 15% 10px 10px 60px;
+    display: flex;
+}
+
+.goal {
+    width: 100%;
+    height: 60%;
+    background: white;
+    padding: 15% 10px -10px 60px;
+    display: flex;
+}
+
+.footer {
+    padding: 20px;
+    text-align: right;
+    height: 10%;
+}
+
+.icon {
+    margin: 0 60px 0 0;
+    color: gray;
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+#mail {
+    font-weight: 540;
+}
+
+p {
+    line-height: 2;
+}
+
+b {
+    font-size: larger;
+}
+
+#devel {
+    color: red;
+    font-style: italic;
+}
